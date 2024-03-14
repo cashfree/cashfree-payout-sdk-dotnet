@@ -153,7 +153,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -210,7 +210,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<Beneficiary>("/beneficiary", localVarRequestOptions, config);
@@ -257,7 +257,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -316,7 +316,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Delete<Beneficiary>("/beneficiary", localVarRequestOptions, config);
@@ -365,7 +365,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -432,7 +432,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Get<Beneficiary>("/beneficiary", localVarRequestOptions, config);
@@ -480,7 +480,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -543,7 +543,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Get<FetchBatchTransferResponse>("/transfers/batch", localVarRequestOptions, config);
@@ -591,7 +591,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -654,7 +654,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Get<CreateTransferResponse>("/transfers", localVarRequestOptions, config);
@@ -701,7 +701,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -758,7 +758,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CreateBatchTransferResponse>("/transfers/batch", localVarRequestOptions, config);
@@ -805,7 +805,7 @@ namespace cashfree_payout.Client
                     o.EnableTracing = true;
                     o.AttachStacktrace = true;
                     o.Environment = env;
-                    o.Release = "0.0.14";
+                    o.Release = "0.0.15";
                     o.AddEventProcessor(new CashfreeEventProcessor());
                 }));
             }
@@ -862,7 +862,7 @@ namespace cashfree_payout.Client
                 localVarRequestOptions.HeaderParameters.Add("x-client-secret", Cashfree.XClientSecret);
             }
 
-            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.14");
+            localVarRequestOptions.HeaderParameters.Add("x-sdk-platform", "dotnetsdk-0.0.15");
 
             // make the HTTP request
             var localVarResponse = this.Client.Post<CreateTransferResponse>("/transfers", localVarRequestOptions, config);
