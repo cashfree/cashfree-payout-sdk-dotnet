@@ -34,7 +34,7 @@ namespace cashfree_payout.Client
         /// Version of the package.
         /// </summary>
         /// <value>Version of the package.</value>
-        public const string Version = "0.0.14";
+        public const string Version = "0.0.15";
 
         /// <summary>
         /// Identifier for ISO 8601 DateTime Format
@@ -113,7 +113,7 @@ namespace cashfree_payout.Client
         public Configuration()
         {
             Proxy = null;
-            UserAgent = WebUtility.UrlEncode("OpenAPI-Generator/0.0.14/csharp");
+            UserAgent = WebUtility.UrlEncode("OpenAPI-Generator/0.0.15/csharp");
             BasePath = "https://sandbox.cashfree.com/payout";
             DefaultHeaders = new ConcurrentDictionary<string, string>();
             ApiKey = new ConcurrentDictionary<string, string>();
@@ -542,7 +542,7 @@ namespace cashfree_payout.Client
             report += "    OS: " + System.Environment.OSVersion + "\n";
             report += "    .NET Framework Version: " + System.Environment.Version  + "\n";
             report += "    Version of the API: 2024-01-01\n";
-            report += "    SDK Package Version: 0.0.14\n";
+            report += "    SDK Package Version: 0.0.15\n";
 
             return report;
         }
