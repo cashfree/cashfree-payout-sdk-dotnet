@@ -27,7 +27,6 @@ jobs:
           
       - name: Build solution and generate NuGet package
         run: |
-          # cp LICENSE.md src/cashfree_payout/
           cp README.md src/cashfree_payout/
           cd src/cashfree_pg
           dotnet pack -c Release -o out  
